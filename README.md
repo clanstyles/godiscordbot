@@ -14,5 +14,7 @@ cd $GOPATH/src/github.com/LetsLearnCommunity/godiscordbot/cmd/client/
 
 Run the application
 ```
-go run main.go
+go run main.go -token [discord bot token] -music-channel-id [channel id]
 ```
+
+Too obtain the channel id, go to your settings, click on appearance and enable the developer ui. Once you've done that, right click on the channel you want the bot to play in.
